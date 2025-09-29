@@ -10,3 +10,8 @@ alert(a[2])
 /**Alterar um elemento do array */
 a[1] = 4
 alert(a)
+
+/**Percorrendo todo o array usando laço de repetição */
+for (var i = 0; i < 5; i++) {
+    document.write("<h2>" + a[i] + "</h2>")
+}
